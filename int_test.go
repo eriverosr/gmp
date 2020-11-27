@@ -1487,7 +1487,7 @@ func TestModInverse(t *testing.T) {
 	}
 }
 
-unc TestJacobi(t *testing.T) {
+func TestJacobi(t *testing.T) {
 	testCases := []struct {
 		x, y   int64
 		result int
@@ -1642,5 +1642,3 @@ func TestRand(t *testing.T) {
 		t.Errorf("Too many short numbers %d/%d", short, N)
 	}
 }
-
-
